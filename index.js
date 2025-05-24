@@ -1,11 +1,17 @@
+let num = 234567
+
+console.log(num.toFixed());
 
 
-function test (){
-    // console.log(x);
-    let x = "hello"
-    console.log(x);
+
+const array = [2,3,54,6,8,9,0,0]
+
+array.forEach((v,i,a)=>{
+    console.log(i);
     
-    
-}
+})
 
-test()
+//  console.log(array);
+ 
+
+

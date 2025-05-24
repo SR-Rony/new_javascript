@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+    background-color: #404040;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title{
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.amount{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+input{
+    width: 500px;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+button{
+    padding: 5px 15px;
+    margin: 20px 5px;
+}
